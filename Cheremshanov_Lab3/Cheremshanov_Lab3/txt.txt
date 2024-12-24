@@ -1,0 +1,50 @@
+@cs@
+bye1
+12
+11
+15
+@cs@
+bye2
+40
+20
+60
+@cs@
+bye3
+30
+20
+20
+@cs@
+bye4
+40
+10
+80
+@pipeline@
+hello1
+12
+12
+0
+@pipeline@
+hello2
+13
+13
+0
+@pipeline@
+hello3
+13
+14
+1
+@pipeline@
+hello4
+15
+15
+1
+@connection@
+OUTPUT 1 2
+@connection@
+OUTPUT 2 3
+@connection@
+OUTPUT 0 1
+@connection@
+INPUT 2 2
+@connection@
+INPUT 1 1
